@@ -1,0 +1,58 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * website_mga_tawk
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-02 16:35+0000\n"
+"PO-Revision-Date: 2017-03-02 17:39+0200\n"
+"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>\n"
+"Language-Team: Mirounga\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. module: website_mga_tawk
+#: view:website.config.settings:website_mga_tawk.view_website_config_settings
+msgid "API Key from tawk.to dashboard"
+msgstr "Clé API du tableau de bord Tawk.to"
+
+#. module: website_mga_tawk
+#: view:website:website_mga_tawk.view_website_form
+msgid "API key from tawk.to dashboard"
+msgstr "Clé API du tableau de bord Tawk.to"
+
+#. module: website_mga_tawk
+#: help:website,tawk_api_key:0
+#: help:website.config.settings,tawk_api_key:0
+msgid "API key to ensure the data you are sendingis actually from you"
+msgstr ""
+"CLé API pour vous assurer que les données envoyées actuellement sont de vous"
+
+#. module: website_mga_tawk
+#: field:website,tawk_api_key:0
+#: field:website.config.settings,tawk_api_key:0
+msgid "Tawk API Key"
+msgstr "Clé API Tawk"
+
+#. module: website_mga_tawk
+#: field:website,tawk_siteid:0
+#: field:website.config.settings,tawk_siteid:0
+msgid "Tawk wite ID"
+msgstr "ID du Site Tawk"
+
+#. module: website_mga_tawk
+#: help:website,tawk_siteid:0
+#: help:website.config.settings,tawk_siteid:0
+msgid "The site ID from settings in tawk.to"
+msgstr "L'ID du site depuis les réglages de tawk.to"
+
+#. module: website_mga_tawk
+#: model:ir.model,name:website_mga_tawk.model_website
+msgid "Website"
+msgstr "Site Web"
