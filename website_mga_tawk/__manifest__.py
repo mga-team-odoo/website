@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 # Copyright 2017 Christophe CHAUVET
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 {
     'name': 'Live Chat Tawk.to',
-    'version': '8.0.1.0.0',
+    'version': '10.0.1.0.0',
     'category': 'Website',
     'sequence': 50,
     'complexity': "expert",
@@ -13,7 +13,7 @@ Replace the original chat module
 """,
     'author': 'Mirounga',
     'website': 'http://mirounga.fr',
-    'license': 'AGPL-3',
+    'license': 'LGPL-3',
     'images': [],
     'depends': [
         'website',
@@ -24,7 +24,7 @@ Replace the original chat module
         'views/templates.xml',
     ],
     'demo': [],
-    'installable': True,
+    'installable': False,
     'application': True,
     'auto_install': False,
 }
